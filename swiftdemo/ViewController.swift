@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         if (self.value1.text!.isEmpty || self.value2.text!.isEmpty){
             self.result.text = "no value input!"
         }else{
-            var num1 = Int(self.value1.text!)
-            var num2 = Int(self.value2.text!)
+            let num1 = Int(self.value1.text!)
+            let num2 = Int(self.value2.text!)
             self.result.text = String(self.sum(num1!, value2: num2!))
         }
         
