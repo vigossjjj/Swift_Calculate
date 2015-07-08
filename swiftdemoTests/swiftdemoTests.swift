@@ -36,7 +36,7 @@ class swiftdemoTests: XCTestCase {
     
     func testViewControllerSum() {
         let res:Int! = viewController.sum(2, value2: 3)
-        XCTAssertEqual(res, 5, "2+3 计算错误")
+        XCTAssertEqual(res, 4, "2+3 计算错误")
     }
     
     func testViewControllerDidReceiveMemoryWarning() {
